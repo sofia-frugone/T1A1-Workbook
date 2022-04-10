@@ -189,4 +189,7 @@ The error found in the code is a no method error.
 
 In order to multiply strings by other strings in Ruby we first need to convert the values into integers. The code will not function properly until the ‘Celsius’ and ‘Farenheit’ objects are converted using the to_i method. 
 
+![q12code](https://user-images.githubusercontent.com/88522139/162605481-21e94510-c336-456c-b70c-ffce5e667ca0.png)
+
+
 ---  
