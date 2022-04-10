@@ -106,13 +106,15 @@ Control flow is the order in which a computer executes statements in a program. 
 
 Example code (https://zetcode.com/lang/rubytutorial/flowcontrol/) 
 
-`num = gets.to_i
+`
+num = gets.to_i
 
 if num > 0 then
 
     puts "num variable is positive"
     puts "num variable equals to #{num}"
-end`
+end
+`
 
 The ‘if’ keyword checks if an expression is true. The code above checks if the number inputted is greater than zero, if this condition is true two statements will print to the console. If the condition is false, nothing is printed. 
 
@@ -122,7 +124,8 @@ The ‘else’ keyword is used to check if an expression evaluates to false. In 
 
 Example code (2) (https://zetcode.com/lang/rubytutorial/flowcontrol/) 
 
-`age = 17
+`
+age = 17
 
 if age > 18
 
@@ -130,7 +133,8 @@ if age > 18
 else
 
     puts "Driving license not permitted"
-end`
+end
+`
 
 ---
 
