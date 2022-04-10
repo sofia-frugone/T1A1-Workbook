@@ -189,7 +189,13 @@ The error found in the code is a no method error.
 
 In order to multiply strings by other strings in Ruby we first need to convert the values into integers. The code will not function properly until the ‘Celsius’ and ‘Farenheit’ objects are converted using the to_i method. 
 
-![q12code](https://user-images.githubusercontent.com/88522139/162605481-21e94510-c336-456c-b70c-ffce5e667ca0.png)
+```
+celsius = gets
+fahrenheit = (celsius.to_i * 9/5) + 32
+print "The result is: "
+print fahrenheit.to_i
+puts "."
+```
 
 
 ---  
@@ -214,13 +220,45 @@ arr[i + 1] = i
 
 ![primes](https://user-images.githubusercontent.com/88522139/162606715-4c634cac-6b22-4f13-aabc-c20cf0656e50.png)
 
-![prime psuedo](https://user-images.githubusercontent.com/88522139/162607071-632f55c7-9197-4f6e-81ef-e2897611bfab.png)
+```
+Is the integer less than or equal to 1?
+IF yes, puts "prime numbers are integers greater than 1"
+Program ENDS
+ELSE, next step
+
+Is the number divisible by the integer?
+IF yes, puts "not a prime"
+Program ENDS
+ELSE, next step
+
+Is there a remainder?
+IF yes, puts "the number is prime"
+ELSE, program ENDS
+```
 
 ---
 ### **Q15** Write pseudocode OR Ruby code for the following problem:
 *You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.*
 
-![q15](https://user-images.githubusercontent.com/88522139/162607307-524f3b7e-d501-4347-8cd4-a04b53731332.png)
+```
+temp = [0,60]
+raining =["yes","no"]
+
+puts "Is it raining?"
+raining = gets.chomp
+
+puts "What is the temperature?"
+temp = gets.chomp.to_i
+
+if raining == "yes" || temp < 15
+  puts "It's wet and cold"
+elsif raining == "no" || temp < 15
+  puts "It's not raining but it's cold"
+elsif raining == "no" || temp >= 15
+  puts "It's warm but not raining"
+elsif raining == "yes" || temp > 15
+  puts "It's warm and raining"
+```
 
 ---
 
