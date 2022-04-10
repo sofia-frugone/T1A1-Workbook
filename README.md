@@ -262,4 +262,25 @@ elsif raining == "yes" || temp > 15
 
 ---
 
+**References**
+Q1 
+https://techterms.com/definition/markup_language 
+Q2
+https://www.techtarget.com/searchnetworking/definition/packet 
+Q3
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/What_are_browser_developer_tools 
+https://www.mozilla.org/en-US/firefox/browsers/what-is-a-browser/ 
+Q4
+https://www.rubyguides.com/2019/04/ruby-data-structures/ 
+Q5
+https://www.youtube.com/watch?v=I1f45REi3k4&ab_channel=CodingMentors
+https://www.theserverside.com/answer/Interpreted-vs-compiled-languages-Whats-the-difference
+Q7
+https://www.acm.org/code-of-ethics 
+Q8
+https://developer.mozilla.org/en-US/docs/Glossary/Control_flow 
+https://zetcode.com/lang/rubytutorial/flowcontrol/ 
+Q9
+https://medium.com/theleanprogrammer/type-conversion-and-coercion-8974afe03b85 
+
 
