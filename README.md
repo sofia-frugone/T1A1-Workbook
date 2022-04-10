@@ -106,7 +106,7 @@ Control flow is the order in which a computer executes statements in a program. 
 
 Example code (https://zetcode.com/lang/rubytutorial/flowcontrol/) 
 
-`
+```
 num = gets.to_i
 
 if num > 0 then
@@ -114,7 +114,7 @@ if num > 0 then
     puts "num variable is positive"
     puts "num variable equals to #{num}"
 end
-`
+```
 
 The ‘if’ keyword checks if an expression is true. The code above checks if the number inputted is greater than zero, if this condition is true two statements will print to the console. If the condition is false, nothing is printed. 
 
@@ -124,7 +124,7 @@ The ‘else’ keyword is used to check if an expression evaluates to false. In 
 
 Example code (2) (https://zetcode.com/lang/rubytutorial/flowcontrol/) 
 
-`
+```
 age = 17
 
 if age > 18
@@ -134,7 +134,7 @@ else
 
     puts "Driving license not permitted"
 end
-`
+```
 
 ---
 
@@ -195,6 +195,17 @@ In order to multiply strings by other strings in Ruby we first need to convert t
 ---  
 
 ### **Q13** The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+
+```
+arr = [5, 22, 29, 39, 19, 51, 78, 96, 84]
+i = 0
+while (i < arr.size - 1 and arr[i] < arr[i + 1])
+ i = i + 1 end
+puts i
+tmp = arr[i]
+arr[i] = arr[i + 1]
+arr[i + 1] = tmp
+```
 
 ---
 ### **Q14** Demonstrate your algorithmic thinking through completing the following two tasks, in order:
