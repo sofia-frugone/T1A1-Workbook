@@ -8,8 +8,8 @@
 ---
 
 ## **Q2** Define the features of the following technologies that are essential in terms of the development of the internet
-### **Packets**
-### Packets are small bits of data that are sent over a network, they can be sent via the internet or LAN (local area network). In order to reach their destination each packet includes a source and destination as well as the data being transferred. Packets travel via routers and routers choose the cheapest path for each piece of data, based on the destination. TCP is responsible for the sending and receiving of data as packets. The exact structure of packets varies between protocols, a typical packet includes two sections, a header and payload. Information about the packet is stored in the header and the actual data itself is stored in the payload. 
+**Packets**
+Packets are small bits of data that are sent over a network, they can be sent via the internet or LAN (local area network). In order to reach their destination each packet includes a source and destination as well as the data being transferred. Packets travel via routers and routers choose the cheapest path for each piece of data, based on the destination. TCP is responsible for the sending and receiving of data as packets. The exact structure of packets varies between protocols, a typical packet includes two sections, a header and payload. Information about the packet is stored in the header and the actual data itself is stored in the payload. 
 
 ### The idea of packet switching was first studied by Len Kleinrock at MIT. While researching message switching his studies then became applicable to packet switching. After came the research of digitising and packetizing of important voice messages in the case of a nuclear attack. They envisioned a highly resilient voice network for command and control (1962).
 
