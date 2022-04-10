@@ -1,6 +1,6 @@
 # T1A1-Workbook
 
-## **Q1** Identify and explain common and important components and concepts of web development markup languages
+### **Q1** Identify and explain common and important components and concepts of web development markup languages
 
 A markup language uses tags to define elements within a document. These languages contain standard words rather than typical programming syntax, making it easier for humans to understand.  I will be using examples from HTML to explain the important concepts and components of markup languages. In HTML, elements, tags and attributes are used to create structure within a document by defining sections, paragraphs and links. 
 
@@ -8,7 +8,7 @@ Markup languages allow us to provide accessibility and support across a variety 
 
 ---
 
-## **Q2** Define the features of the following technologies that are essential in terms of the development of the internet
+### **Q2** Define the features of the following technologies that are essential in terms of the development of the internet
 
 - **Packets** are small bits of data that are sent over a network, they can be sent via the internet or LAN (local area network). In order to reach their destination each packet includes a source and destination as well as the data being transferred. Packets travel via routers and routers choose the cheapest path for each piece of data, based on the destination. TCP is responsible for the sending and receiving of data as packets. The exact structure of packets varies between protocols, a typical packet includes two sections, a header and payload. Information about the packet is stored in the header and the actual data itself is stored in the payload. 
 
@@ -34,7 +34,7 @@ The DNS process ensures things run quickly and smoothly. First, the initial requ
 
 ---
 
-## **Q3** Define the features of the following technologies that are essential in terms of the development of the internet
+### **Q3** Define the features of the following technologies that are essential in terms of the development of the internet
 
 **TCP** is the protocol on which the internet is built, it is a connection-oriented protocol and allows a device to send a packet to another device on the same network or on a different network. First, it establishes a connection with the receiver and attempts to send the packet. If the packet is unable to be sent it tries to resend the packet, the connection will not close unless the packet has been delivered or if an error occurs. TCP is always used for one-on-one communication, it cannot be used to broadcast messages.
 
@@ -46,7 +46,7 @@ The DNS process ensures things run quickly and smoothly. First, the initial requ
 
 ---
 
-## **Q4** Identify THREE data structures used in the Ruby programming language and explain the reasons for using each
+### **Q4** Identify THREE data structures used in the Ruby programming language and explain the reasons for using each
 
 **Arrays** are an important data structure that can hold zero or many items, there are many useful methods that can be used to add, access and loop over these items. They can hold many different data types and are useful for condensing and organising code, making it more readable and maintainable. 
 
@@ -56,13 +56,13 @@ A **stack** is a data structure that processes elements by taking elements from 
 
 ---
 
-## **Q5** Describe the features of interpreters and compilers and how they are different
+### **Q5** Describe the features of interpreters and compilers and how they are different
 
 Computer programs are written using a high-level language, this is the source code of our programs. Computers cannot understand high-level; languages, it only undertones programs written in binary called the machine code. To convert source code into machine code we can use either a compiler or interpreter. Compilers scan the entire program and translate it as a whole. This process takes a large amount of time, however the overall execution time is faster compared to an interpreter. The main drawback to compiled code is its incapacity to be cross-platform, for example applications written on an Ubuntu machine cannot be installed on a windows machine. Interpreters take less time to analyse source code but the execution time is comparatively slower than compilers. Programming languages such as; JavaScript, Python and Ruby use interpreters. Interpreters are platform agnostic which means they can be run on any environment. The disadvantage of using interpreted codes is slower performance. 
 
 ---
 
-## **Q6** Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
+### **Q6** Identify TWO commonly used programming languages and explain the benefits and drawbacks of each.
 
 The Ruby programming language is time efficient especially when it’s used in conjunction with the rails framework and allows you to develop things quickly. Another benefit to the language is the large and established community, although it has seen a decrease in popularity since 2019 as most programmers choose to develop using Java or Python. Ruby is considered to be very secure because of the built in security that looks for attacks. A downside to the language is the difficulty of implementing non-standard features, it can take a bit of time to customise configuration settings.
 
@@ -71,7 +71,7 @@ Javascript is simple to understand and easier to learn in comparison to other la
 
 ---
 
-## **Q7** Case study
+### **Q7** Case study
 
 **Topic 1**: access to a user’s personal information (medical, family, financial, personal attributes such as sexuality, religion, or beliefs)
 
@@ -100,7 +100,7 @@ Finally, the IT professional should comply and be well versed in the national da
 
 ---
 
-## **Q8** Explain control flow, using examples from the Ruby programming language
+### **Q8** Explain control flow, using examples from the Ruby programming language
 
 Control flow is the order in which a computer executes statements in a program. The code will run in order from the first statement to the last unless structures such as conditionals and loops, which change the flow of the program, are added. 
 
@@ -138,13 +138,13 @@ end
 
 ---
 
-## **Q9** Explain type coercion
+### **Q9** Explain type coercion
 
 Type coercion is the conversion of values from one data type to another. There are two types of conversion, implicit and explicit. Type coercion is implicit, and type conversion is explicit. Explicit coercion is done by using inbuilt functions such as number(), string() and boolean(). 
 
 Implicit conversion does not require special syntax in the source code. For example, the Javascript engine will automatically convert data types, such as; string numbers and booleans, into their desired type. In boolean coercion, true values are equal to 1 and false values are equal to 0. When JavaScript notices the wrong data type it will automatically convert the value into the correct data type.
 
-## **Q10** Explain data types, using examples
+### **Q10** Explain data types, using examples
 
 Data types tell the computer how to handle the data in our program and determine what operations we can perform within our program. I will be using examples from Ruby to further explain data types. In Ruby all data types are based on classes because it is an object-oriented language. 
 
@@ -158,17 +158,17 @@ The different types are as follows;
 
  I will be giving examples from the first two data types. 
 
-Example code (1) (https://www.tutorialspoint.com/ruby/ruby_arrays.htm) 
+Ref code (1) (https://www.tutorialspoint.com/ruby/ruby_arrays.htm) 
 
 Arrays can hold many objects such as strings, hashes, symbols and can hold other array objects. We can initialise an array by using the ‘new’ class method. Arrays are useful for adding, accessing or looping over items easily. Some built-in class methods include; sort (used to sort strings or numbers inside an array), sample (used to pick one random element from an array), take (used to take the first 3 elements from an array). 
 
-Example code (2) (https://www.rubyguides.com/2018/01/ruby-string-methods/)   
+Ref code (2) (https://www.rubyguides.com/2018/01/ruby-string-methods/)   
 
 Strings are a sequence of characters. In its simplest form, strings are literals enclosed by single quotes. The code above extracts the substring, this is useful if we want to use a specific part of our string. The first number is the starting index and the second number is the length of characters to be extracted. 
 
 --- 
 
-## **Q11** Resturant classes
+### **Q11** Resturant classes
 
 
 **Customer**
@@ -183,7 +183,7 @@ The customer information and order details would be stored in the order class. I
 
 ---
 
-## **Q12** Identify and explain the error in the code snippet below that is preventing correct execution of the program:
+### **Q12** Identify and explain the error in the code snippet below that is preventing correct execution of the program:
 
 The error found in the code is a no method error.
 
@@ -193,3 +193,24 @@ In order to multiply strings by other strings in Ruby we first need to convert t
 
 
 ---  
+
+### **Q13** The code snippet below looks for the first two elements that are out of order and swaps them; however, it is not producing the correct results. Rewrite the code so that it works correctly.
+
+---
+### **Q14** Demonstrate your algorithmic thinking through completing the following two tasks, in order:
+ - 1. Create a flowchart to outline the steps for listing all prime numbers between 1 and 100 (inclusive). Your flowchart should make use of standard conventions for flowcharts to indicate processes, tasks, actions, or operations
+ - 2. Write pseudocode for the process outlined in your flowchart
+
+![primes](https://user-images.githubusercontent.com/88522139/162606715-4c634cac-6b22-4f13-aabc-c20cf0656e50.png)
+
+![prime psuedo](https://user-images.githubusercontent.com/88522139/162607071-632f55c7-9197-4f6e-81ef-e2897611bfab.png)
+
+---
+### **Q15** Write pseudocode OR Ruby code for the following problem:
+*You have access to two variables: raining (boolean) and temperature (integer). If it’s raining and the temperature is less than 15 degrees, print to the screen “It’s wet and cold”, if it is less than 15 but not raining print “It’s not raining but cold”. If it’s greater than or equal to 15 but not raining print “It’s warm but not raining”, and otherwise tell them “It’s warm and raining”.*
+
+![q15](https://user-images.githubusercontent.com/88522139/162607307-524f3b7e-d501-4347-8cd4-a04b53731332.png)
+
+---
+
+
